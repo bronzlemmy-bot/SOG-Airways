@@ -1,0 +1,85 @@
+import type { BookingPassenger } from "@/types/booking";
+
+export const MOCK_TRIP_PASSENGERS: BookingPassenger[] = [
+  {
+    passengerId: "passenger-sog-001",
+    firstName: "Daniel",
+    lastName: "Adeyemi",
+    passengerType: "adult",
+    seatNumber: "12A",
+    ticketNumber: "SOG-TKT-2026-0001",
+  },
+  {
+    passengerId: "passenger-sog-002",
+    firstName: "Grace",
+    lastName: "Adeyemi",
+    passengerType: "adult",
+    seatNumber: "12B",
+    ticketNumber: "SOG-TKT-2026-0002",
+  },
+  {
+    passengerId: "passenger-sog-003",
+    firstName: "Samuel",
+    lastName: "Adeyemi",
+    passengerType: "child",
+    seatNumber: "12C",
+    ticketNumber: "SOG-TKT-2026-0003",
+  },
+  {
+    passengerId: "passenger-sog-004",
+    firstName: "Amara",
+    lastName: "Okafor",
+    passengerType: "adult",
+    seatNumber: "08F",
+    ticketNumber: "SOG-TKT-2026-0004",
+  },
+  {
+    passengerId: "passenger-sog-005",
+    firstName: "Michael",
+    lastName: "Balogun",
+    passengerType: "adult",
+    seatNumber: "14C",
+    ticketNumber: "SOG-TKT-2026-0005",
+  },
+  {
+    passengerId: "passenger-sog-006",
+    firstName: "Zainab",
+    lastName: "Ibrahim",
+    passengerType: "adult",
+    seatNumber: "14D",
+    ticketNumber: "SOG-TKT-2026-0006",
+  },
+  {
+    passengerId: "passenger-sog-007",
+    firstName: "David",
+    lastName: "Williams",
+    passengerType: "adult",
+    seatNumber: "21A",
+    ticketNumber: "SOG-TKT-2026-0007",
+  },
+  {
+    passengerId: "passenger-sog-008",
+    firstName: "Blessing",
+    lastName: "Eze",
+    passengerType: "adult",
+    seatNumber: "16B",
+    ticketNumber: "SOG-TKT-2026-0008",
+  },
+  {
+    passengerId: "passenger-sog-009",
+    firstName: "Tomiwa",
+    lastName: "Olawale",
+    passengerType: "adult",
+    seatNumber: "09A",
+    ticketNumber: "SOG-TKT-2026-0009",
+  },
+  {
+    passengerId: "passenger-sog-010",
+    firstName: "Chidinma",
+    lastName: "Nwosu",
+    passengerType: "infant",
+    ticketNumber: "SOG-TKT-2026-0010",
+  },
+];
+
+export default MOCK_TRIP_PASSENGERS;

@@ -1,0 +1,37 @@
+cat > .gitignore <<'EOF'
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Credentials
+access-token.txt
+login-response.json
+
+# Next.js
+.next/
+out/
+
+# Build output
+dist/
+coverage/
+
+# Temporary files
+.TEMP/
+
+# Logs
+*.log
+npm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Editor and operating system
+.vscode/
+.DS_Store
+Thumbs.db
+EOF

@@ -1,0 +1,36 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.9.1",
+    "axios": "^1.20.0",
+    "framer-motion": "^13.4.0",
+    "jspdf-autotable": "^5.0.8",
+    "lucide-react": "^1.47.0",
+    "next": "16.3.5",
+    "next-themes": "^0.4.6",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-hook-form": "^7.88.0",
+    "react-icons": "^5.7.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.5",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
